@@ -23,8 +23,8 @@ require("dotenv").config()
 // from the ./api folder
 const apiRouter = require("./api")
 
-// what we will be adding to our path
-app.use("./api", apiRouter)
+// we will be adding /api to everything in the ./api folder
+app.use("/api", apiRouter)
 
 
 
