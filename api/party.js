@@ -2,9 +2,9 @@ const express = require("express")
 
 const router = express.Router()
 
-// api/party/
+// api/parties/
 router.get("/", (req, res)=>{
-    res.send("hello from party router!")
+    res.send("hello from parties router!")
 })
 
 // router.get("/getall", (req, res)=>{
